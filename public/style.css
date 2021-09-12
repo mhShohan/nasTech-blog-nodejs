@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:ital@0;1&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Glory', sans-serif;
+}
+
+.site_title {
+    display: flex;
+    align-items: center;
+    height: 80vh;
+}
+
+.single_blog {
+    text-decoration: none;
+    color: black;
+    border: 1px solid darkcyan;
+    padding: 10px;
+    display: block;
+    margin-top: 20px;
+    border-radius: 6px;
+    transition: all 0.3s;
+}
+.single_blog:hover {
+    color: darkcyan;
+    cursor: pointer;
+}
+
+.blog_info {
+    padding: 10px;
+}
+
+.blog_info h1 {
+    font-size: 36px;
+    line-height: 0.5;
+}
+.blog_info h3 {
+    font-size: 18px;
+    opacity: 0.5;
+}
+.tags {
+    background: rgb(209, 207, 207);
+    padding: 2px 12px;
+    color: rgb(54, 54, 54);
+    border-radius: 2px;
+}
+
+.main-form {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.main-form label {
+    font-weight: 600;
+    font-size: 26px;
+}
+.publish_btn {
+    padding-top: 35px;
+}
